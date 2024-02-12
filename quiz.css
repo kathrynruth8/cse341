@@ -1,0 +1,15 @@
+label > input p {
+  color: pink;
+}
+
+span.help:before {
+  content: '(';
+}
+
+span.help:after {
+  content: ')';
+}
+
+input:invalid:required {
+  background-color: red;
+}
